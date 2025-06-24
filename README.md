@@ -4,9 +4,9 @@ Este proyecto implementa un sistema de búsqueda de alto rendimiento en C para c
 
 ## Autores
 
-* **Nombre:** [José Leonardo Pinilla, Frank Olmos, Juan David Ladino]
-* **Curso:** [Sistemas Operativos]
-* **Universidad:** [Universidad Nacional de Colombia]
+* **Nombres:** José Leonardo Pinilla, Frank Olmos, Juan David Ladino
+* **Curso:** Sistemas Operativos
+* **Universidad:** Universidad Nacional de Colombia
 
 ## Características Principales
 
@@ -34,7 +34,7 @@ El proyecto utiliza el dataset "Spotify Tracks DB" disponible en Hugging Face.
 * **Enlace:** [https://huggingface.co/datasets/bigdata-pw/Spotify](https://huggingface.co/datasets/bigdata-pw/Spotify)
 
 El archivo `spotify_data.csv` que usa el proyecto fue generado a partir de los .parquet alojados en HuggingFace
-(Se usó un la biblioteca de Python datasets para unificar los archivos)
+(Se usó la biblioteca de Python datasets para unificar los archivos)
 - Adjunto el código que use para unificarlo.
 ## Compilación
 
