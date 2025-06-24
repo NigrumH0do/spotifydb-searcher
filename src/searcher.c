@@ -33,10 +33,8 @@ void cerrar_todo();
 char *extraer_artista(const char *json_string);
 void formato_resultado(char *dest, size_t dest_size, const char *csv_line);
 
-// --- Función Principal ---
 int main(int argc, char *argv[])
 {
-    // La inicialización es la misma...
     FILE *index_file = fopen("spotify.index", "rb");
     if (!index_file)
     {
