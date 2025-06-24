@@ -1,6 +1,6 @@
 # Proyecto 1: Sistema de Búsqueda de Datos de Spotify
 
-Este proyecto implementa un sistema de búsqueda de alto rendimiento en C para consultar un dataset masivo de canciones de Spotify (`25,681,792 filas`). El sistema está diseñado con una arquitectura de múltiples procesos y utiliza técnicas de indexación y comunicación entre procesos (IPC) para manejar grandes volúmenes de datos (7 GB) de manera eficiente y rapida.
+Este proyecto implementa un sistema de búsqueda de alto rendimiento en C para consultar un dataset masivo de canciones de Spotify (`25,681,792 filas`). Este proyecto está diseñado con una arquitectura de múltiples procesos y utiliza técnicas de indexación y comunicación entre procesos (IPC) para manejar grandes volúmenes de datos (7 GB) de manera eficiente y rapida.
 
 ## Autores
 
