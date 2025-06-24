@@ -90,7 +90,6 @@ int main(int argc, char *argv[])
         hash_table[i] = -1;
     }
     char *line = malloc(MAX_LINE_LENGTH);
-    // --- 4.2: Preparación del Archivo de Índice ---
     // Mueve el cursor de escritura del archivo de índice hacia adelante.
     // Deja un espacio en blanco al principio del tamaño de la tabla hash.
     fseek(index_file, sizeof(long) * HASH_TABLE_SIZE, SEEK_SET);
