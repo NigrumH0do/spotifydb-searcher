@@ -102,7 +102,7 @@ int main(int argc, char *argv[]) {
     GtkWidget *boton_buscar = gtk_button_new_with_label("4. Realizar Búsqueda");
     GtkWidget *boton_salir = gtk_button_new_with_label("5. Salir");
     
-    // Añadir widgets a la grilla
+    // Añadir widgets a la cuadricula
     gtk_grid_attach(GTK_GRID(grid), gtk_label_new("Álbum:"), 0, 0, 1, 1);
     gtk_grid_attach(GTK_GRID(grid), widgets->album_entrada, 1, 0, 1, 1);
     gtk_grid_attach(GTK_GRID(grid), gtk_label_new("Artista:"), 0, 1, 1, 1);
